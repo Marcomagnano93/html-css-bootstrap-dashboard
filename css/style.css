@@ -15,8 +15,20 @@
 
 .app_wrapper {
     display: flex;
+}
+
+.main_app {
+    width: calc(100% - 70px);
 
 }
+
+@media (min-width:992px) {
+    .main_app {
+        width: calc(100% - 140px);
+    }
+}
+
+
 
 /* header */
 
@@ -117,4 +129,13 @@ aside {
 
 .debug .main_header {
     background-color: rgb(218, 244, 17);
+}
+
+
+
+.debug .card {
+    background-color: rgba(244, 17, 17, 0.463);
+    border: 2px solid black;
+    height: fit-content;
+
 }
