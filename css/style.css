@@ -6,7 +6,17 @@
 }
 
 
+/* layoyt */
 
+.app_content {
+    width: 100%;
+    height: 100%;
+}
+
+.app_wrapper {
+    display: flex;
+
+}
 
 /* header */
 
@@ -30,7 +40,7 @@ header .row {
 
 aside {
     width: 70px;
-    height: 100vh;
+    height: calc(100vh - 70px);
 }
 
 .aside_bar {
@@ -52,9 +62,13 @@ aside {
     }
 }
 
+/* main header */
 
-
-
+.main_header {
+    flex-grow: 1;
+    width: 100%;
+    height: fit-content;
+}
 
 
 
@@ -101,3 +115,6 @@ aside {
     background-color: rgb(122, 246, 97);
 }
 
+.debug .main_header {
+    background-color: rgb(218, 244, 17);
+}
