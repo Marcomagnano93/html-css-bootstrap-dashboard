@@ -1,0 +1,65 @@
+
+/* style */
+.link_list {
+    list-style: none;
+
+}
+
+
+
+
+/* header */
+
+
+.searchbar {
+    flex-grow: 1;
+}
+
+.link {
+    display: flex;
+    gap: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+.debug .searchbar {
+    border: 2px dotted black;
+}
+
+.debug .logo {
+    border: 2px dotted black;
+}
+
+.debug .link {
+    border: 2px dotted black;
+}
+
+.debug header {
+    background-color: rgb(97, 97, 246);
+}
