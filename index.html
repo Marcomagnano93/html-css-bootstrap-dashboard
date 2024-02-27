@@ -91,15 +91,7 @@
 
                                           <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
 
-                                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                            <div class="offcanvas-header">
-                                              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                            </div>
-                                            <div class="offcanvas-body">
-                                              ...
-                                            </div>
-                                          </div>
+                                          
                                         </div>
                                        
                                       </div>
@@ -419,7 +411,77 @@
 
 
       </div>
-           
+
+      <!-- OFFCANVAS -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <form>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="mb-3 col-lg-6">
+                  <label for="name" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="Name">
+                </div>
+                <div class="mb-3 col-lg-6">
+                  <label for="cognome" class="form-label">Cognome</label>
+                  <input type="text" class="form-control" id="surname">
+                </div>
+                <div class="col-lg-6">
+                    <label for="email" class="form-label">Email</label>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="email" class="form-control" id="email" aria-label="email" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+                
+                <div class="mb-3 col-lg-6">
+                  <label for="pass" class="form-label">Password</label>
+                  <input type="password" class="form-control">
+                </div>
+                <div class="mb-3 col-100">
+                  <label for="adress" class="form-label">Indirizzo</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="mb-3 col-lg-6">
+                  <label for="city" class="form-label">Città</label>
+                  <input type="text" class="form-control">
+                </div>
+                <label for="stato" class="form-label">Stato</label>
+                <div class="input-group mb-3 col-lg-3">
+                  
+                  <select class="form-select" id="stato">
+                    <option selected>Scegli...</option>
+                    <option value="Italia">Italy</option>
+                    <option value="France">France</option>
+                    <option value="England">England</option>
+                  </select>
+                </div>
+                
+                <div class="mb-3 col-lg-3">
+                  <label for="cap" class="form-label">CAP</label>
+                  <input type="text" class="form-control">
+                </div>
+                <label for="foto" class="form-label">Foto</label>
+                <div class="input-group mb-3">
+                  <input type="file" class="form-control" id="foto">
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                </div>
+                <button type="submit" class="btn btn-primary form_button ">Salva</button>
+                <button type="submit" class="btn process form_button ms-1">Svuota</button>
+              </div>
+            </div>
+          
+          </form>
+        </div>
+      </div>
 
 
 

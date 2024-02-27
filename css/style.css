@@ -216,6 +216,24 @@ aside a {
 
 
 
+
+.desktop_w {
+    width: 100vw;
+   } 
+
+/* @media (min-width: 992px) {
+
+    .desktop_w {
+        width: 40vw;
+       } 
+} */
+
+.form_button {
+    width: fit-content;
+}
+
+
+
 /* DEBUG */
 /* .debug .searchbar {
     border: 2px dotted black;
