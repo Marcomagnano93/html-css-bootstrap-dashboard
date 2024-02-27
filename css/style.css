@@ -67,7 +67,7 @@ header > * {
     width: 50px;
 }
 
-.link_list a {
+.header a {
     color: black;
     text-decoration: none;
 
@@ -83,6 +83,16 @@ header > * {
 aside {
     width: 70px;
     height: calc(100vh - 70px);
+    background-image: url(../img/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-color: #051e34;
+    color: white;
+}
+
+
+aside a {
+    text-decoration: none;
+    color: white;
 }
 
 .aside_bar {
@@ -144,9 +154,9 @@ aside {
 }
 
 
-.debug aside {
+/* .debug aside {
     background-color: rgb(122, 246, 97);
-}
+} */
 
 .debug .main_header {
     background-color: rgb(218, 244, 17);
