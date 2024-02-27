@@ -96,8 +96,18 @@ aside {
     background-repeat: no-repeat;
     background-color: #051e34;
     color: white;
+    font-size: 12px;
 }
 
+aside i {
+    font-size: 16px;
+}
+
+@media (min-width: 992px) {
+    aside i {
+        font-size: 12px;
+    }
+}
 
 aside a {
     text-decoration: none;
@@ -197,11 +207,9 @@ aside a {
     color: currentColor;
 }
 
-thead {
-    font-weight: 200;
+.stats {
+    max-width: 100%;
 }
-
-
 
 
 
@@ -215,9 +223,9 @@ thead {
     background-color: rgb(97, 97, 246);
 } */
 
-.debug .row {
+/* .debug .row {
     border: 2px dotted red;
-}
+} */
 
 
 /* .debug aside {
