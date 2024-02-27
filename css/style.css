@@ -218,15 +218,15 @@ aside a {
 
 
 .w-desk {
-    width: 100%;
+    width: 100% !important;
    } 
 
 @media (min-width: 992px) {
 
     .w-desk {
-    width: 380px;
+    width: 380px !important;
    } 
-}
+} 
 
 .form_button {
     width: fit-content;
