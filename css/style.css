@@ -217,16 +217,16 @@ aside a {
 
 
 
-.desktop_w {
-    width: 100vw;
+.w-desk {
+    width: 100%;
    } 
 
-/* @media (min-width: 992px) {
+@media (min-width: 992px) {
 
-    .desktop_w {
-        width: 40vw;
-       } 
-} */
+    .w-desk {
+    width: 380px;
+   } 
+}
 
 .form_button {
     width: fit-content;
